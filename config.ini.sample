@@ -1,0 +1,10 @@
+[DEFAULT]
+host = localhost
+format = ogg
+mount = /
+user = source
+password = hackme
+
+[localhost]
+port = 8000
+
