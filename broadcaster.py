@@ -15,8 +15,8 @@ INTRO = "bumps/bump-00000.mp3"
 OUTRO = "bumps/bump-00001.mp3"
 BUMPS = ["bumps/"+x for x in os.listdir("bumps") if ("bumps/"+x) not in (INTRO,OUTRO)]
 MUSIC = ["music/"+x for x in os.listdir("music")]
-BUMPC = 3
-MUSCNT = 12
+BUMPC = 5
+MUSCNT = 30
 MAXATT = 15
 
 print(" - {!s} possible track{}".format(len(MUSIC),"" if len(MUSIC)==1 else "s"))
